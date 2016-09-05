@@ -1,10 +1,4 @@
 set nu
-set cindent
-set shiftwidth=2
-set ts=2
-syntax on
-set backspace=2
-set nocompatible
 
 "setup terminal for repl
 tnoremap <ESC> <C-\><C-n><C-w><C-p>
@@ -19,3 +13,6 @@ map <F3> @c
 map <F4> @v
 map <F5> @b
 
+"regular repl
+let @x="VylpA$"
+let @v="ylph"

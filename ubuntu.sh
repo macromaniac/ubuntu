@@ -17,8 +17,8 @@ apt -y remove vim
 ln -s /usr/bin/nvim /usr/bin/vim
 
 #copy over nvimrc
-wget -P ~/.config/nvim/ raw.githubusercontent.com/macromaniac/vimrc/master/.config/nvim/init.vim
-wget -P ~/.config/nvim/ raw.githubusercontent.com/macromaniac/vimrc/master/.config/nvim/py.vim
+wget -P ~/.config/nvim/ raw.githubusercontent.com/macromaniac/ubuntu/master/init.vim
+wget -P ~/.config/nvim/ raw.githubusercontent.com/macromaniac/ubuntu/master/py.vim
 
 #install xclip
 apt -y install xclip
