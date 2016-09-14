@@ -27,6 +27,9 @@ pip install keras
 pip install scikit-learn
 pip install --no-use-wheel --upgrade distribute
 apt -y install python-skimage
+#gym
+apt-get install -y python-numpy python-dev cmake zlib1g-dev libjpeg-dev xvfb libav-tools xorg-dev python-opengl libboost-all-dev libsdl2-dev swig
+pip install 'gym[all]'
 
 #we use cpu tf atm, from https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html
 export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.10.0rc0-cp27-none-linux_x86_64.whl
