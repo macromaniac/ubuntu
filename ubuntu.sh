@@ -24,6 +24,7 @@ apt -y install pkg-config
 apt -y install libpng-dev libjpeg8-dev libfreetype6-dev
 pip install matplotlib
 pip install keras
+export KERAS_BACKEND=tensorflow
 pip install scikit-learn
 pip install --no-use-wheel --upgrade distribute
 apt -y install python-skimage
